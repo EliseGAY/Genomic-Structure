@@ -12,7 +12,7 @@
 
 # Aim : Run general analysis of population structure on gVCF
 
-# Authors : Stefano Mona , Elise Gay, Romuald Laso-Jadart 
+# Authors : Stefano Mona , Elise Gay, Romuald Laso-Jadart , Pierre Lesturgie (EPHE - MNHN)
 #           2023
 #	Please inform the authors before sharing
 #========================================================================================#
@@ -78,9 +78,9 @@ names(lista_pop)=c("pop1","pop2","pop3","pop4")
 lista_pop_all=list(pop1,pop2,pop3,pop4,c(pop1,pop2,pop3,pop4))
 names(lista_pop_all) = c("pop1","pop2","pop3","pop4","pop1+pop2+pop3+pop4")
 
-#-----------------------------#
-# Load Stefano Mona functions
-#-----------------------------#
+#--------------------------------------------------#
+# Load Stefano Mona and Pierre Lesturgie functions
+#---------------------------------------------------#
 source("R_functions/libreria_filtri_VCF_e_SFS_unfolded.r")
 
 #===============================================#
